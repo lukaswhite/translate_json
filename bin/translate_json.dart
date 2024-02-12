@@ -68,7 +68,14 @@ void main(List<String> arguments) async {
   File outputFile = File('${outputDir.path}/$targetLanguage.json');
 
   if(outputFile.existsSync() && !parsedArgs['replace']) {
-    logger.stderr('The destination file already exists');
+    final answer = Confirm(
+      prompt: 'The destination path already exists. Are you sure you want to overwrite it?',
+      defaultValue: false,
+    ).interact();
+    if(!answer){
+      logger.stdout('Exiting, leaving destination intact.');
+      exit(0);
+    }
   }
 
   String input = inputFile.readAsStringSync();
