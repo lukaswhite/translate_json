@@ -1,0 +1,24 @@
+{
+     "auth": {
+          "login": {
+               "page": {
+                    "title": "Logg inn på kontoen din"
+               },
+               "form": {
+                    "fields": {
+                         "email": {
+                              "label": "Epostadresse",
+                              "hint": "Vennligst skriv inn E-postadressen din"
+                         },
+                         "password": {
+                              "label": "Passord",
+                              "hint": "Vennligst skriv inn passordet ditt"
+                         }
+                    }
+               },
+               "errors": {
+                    "invalid_credentials": "E -post- / passordkombinasjonen ble ikke funnet."
+               }
+          }
+     }
+}

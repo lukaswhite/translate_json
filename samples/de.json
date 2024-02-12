@@ -1,0 +1,24 @@
+{
+     "auth": {
+          "login": {
+               "page": {
+                    "title": "Ins Konto einloggen"
+               },
+               "form": {
+                    "fields": {
+                         "email": {
+                              "label": "E-Mail-Adresse",
+                              "hint": "Geben Sie bitte Ihre Email-Adresse ein"
+                         },
+                         "password": {
+                              "label": "Passwort",
+                              "hint": "Bitte geben Sie Ihr Passwort ein"
+                         }
+                    }
+               },
+               "errors": {
+                    "invalid_credentials": "Die E -Mail / Passwort -Kombination konnte nicht gefunden werden."
+               }
+          }
+     }
+}

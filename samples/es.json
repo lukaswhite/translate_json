@@ -1,0 +1,24 @@
+{
+     "auth": {
+          "login": {
+               "page": {
+                    "title": "Ingrese a su cuenta"
+               },
+               "form": {
+                    "fields": {
+                         "email": {
+                              "label": "Dirección de correo electrónico",
+                              "hint": "Por favor, introduzca su dirección de correo electrónico"
+                         },
+                         "password": {
+                              "label": "Contraseña",
+                              "hint": "Por favor, introduzca su contraseña"
+                         }
+                    }
+               },
+               "errors": {
+                    "invalid_credentials": "No se pudo encontrar la combinación de correo electrónico / contraseña."
+               }
+          }
+     }
+}

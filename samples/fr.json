@@ -1,0 +1,24 @@
+{
+     "auth": {
+          "login": {
+               "page": {
+                    "title": "Connectez-vous à votre compte"
+               },
+               "form": {
+                    "fields": {
+                         "email": {
+                              "label": "Adresse e-mail",
+                              "hint": "Veuillez saisir votre adresse e-mail"
+                         },
+                         "password": {
+                              "label": "Mot de passe",
+                              "hint": "s'il vous plait entrez votre mot de passe"
+                         }
+                    }
+               },
+               "errors": {
+                    "invalid_credentials": "La combinaison e-mail / mot de passe n'a pas pu être trouvée."
+               }
+          }
+     }
+}

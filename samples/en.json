@@ -1,0 +1,24 @@
+{
+    "auth": {
+        "login": {
+            "page": {
+                "title": "Log in to your account"
+            },
+            "form": {
+                "fields": {
+                    "email": {
+                        "label": "Email address",
+                        "hint": "Please enter your email address"
+                    },
+                    "password": {
+                        "label": "Password",
+                        "hint": "Please enter your password"
+                    }
+                }
+            },
+            "errors": {
+                "invalid_credentials": "The email / password combination could not be found."
+            }
+        }
+    }    
+}
