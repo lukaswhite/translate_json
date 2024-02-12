@@ -83,7 +83,7 @@ translate_json ./samples/en.json es
 Convert `samples/en.json` into German, save to the `translations` directory, replace it if it already exists and format it.
 
 ```bash
-translate_json ./samples/en.json es --output-dir=translations --pretty-print
+translate_json ./samples/en.json es --output-dir=translations --replace --pretty-print
 ```
 
 ### Options
