@@ -72,10 +72,19 @@ translate_json samples/en.json es --pretty-print
 translate_json <source> <language>
 ```
 
+### Examples
+
+Convert `samples/en.json` into Spanish, save to current directory (`de.json`).
+
 ```bash
 translate_json ./samples/en.json es
 ```
 
+Convert `samples/en.json` into German, save to the `translations` directory, replace it if it already exists and format it.
+
+```bash
+translate_json ./samples/en.json es --output-dir=translations --pretty-print
+```
 
 ### Options
 
@@ -88,3 +97,9 @@ translate_json ./samples/en.json es
 `--replace` / `-r` to replace the file if it exists; otherwise you will be prompted whether to overwrite it.
 
 `--pretty-print` / `-p` to format the generated JSON.
+
+## Roadmap
+
+* Batch translations (e.g. YAML)
+* Refactor
+* Better error handling
