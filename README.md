@@ -66,6 +66,10 @@ translate_json samples/en.json es --pretty-print
 }
 ```
 
+## Installation
+
+You'll find executables for Linux, MacOS and Windows on [the releases page](https://github.com/lukaswhite/translate_json/releases). Alternatively you can build from source by cloning the repository and running `dart compile`.
+
 ## Usage
 
 ```bash
