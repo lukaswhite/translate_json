@@ -74,7 +74,7 @@ translate_json <source> <language>
 
 ### Examples
 
-Convert `samples/en.json` into Spanish, save to current directory (`de.json`).
+Convert `samples/en.json` into Spanish, save to current directory (`es.json`).
 
 ```bash
 translate_json ./samples/en.json es
@@ -83,7 +83,7 @@ translate_json ./samples/en.json es
 Convert `samples/en.json` into German, save to the `translations` directory, replace it if it already exists and format it.
 
 ```bash
-translate_json ./samples/en.json es --output-dir=translations --replace --pretty-print
+translate_json ./samples/en.json de --output-dir=translations --replace --pretty-print
 ```
 
 ### Options
